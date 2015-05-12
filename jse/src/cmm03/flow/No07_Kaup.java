@@ -59,8 +59,7 @@ public class No07_Kaup {
 		double weight = scanner.nextDouble();
 		
 		No07_Kaup kaup = new No07_Kaup(height, weight);
-		System.out.println(kaup.getMsg());
-		System.out.println(kaup.toString());
+		System.out.println(kaup.getMsg()+"\n"+kaup.toString());
 		
 		System.out.println("¿Ï·á");
 	}
