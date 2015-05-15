@@ -28,7 +28,7 @@ public class GameRpsController {
 			if(comValue==1&&playerValue==3){
 				System.out.println("컴퓨터가 이겼습니다.");
 			}else {
-				System.out.println("당신이 이겼습니다.");
+				System.out.println("당신이  이겼습니다.");
 			}
 		}
 		
