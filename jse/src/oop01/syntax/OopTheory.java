@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop01.syntax;
 
 public class OopTheory {
 /*
@@ -27,5 +27,9 @@ public class OopTheory {
     > 구조체 ( 기본데이터 타입의 집합체)
     > 클래스
 
+
+
++ getter/setter 는 정보를 저장하는 역할
+  > 연산을 넣지 않음. 연산은 service class에서 함.
  */
 }
