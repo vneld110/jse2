@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 public class PayMain {
 	public static void main(String[] args) {
