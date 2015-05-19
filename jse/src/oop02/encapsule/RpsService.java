@@ -10,10 +10,12 @@ public class RpsService {
 	// 승자를 보여주는 로직
 	public String showWinner(int playerVal, int comVal) {
 		String msg = "";
-		switch(Math.abs(playerVal-comVal)){
+		switch(playerVal-comVal){
+		case -2: msg = "이겼습니다."; break;
+		case -1: msg = "졌습니다."; break;
 		case  0: msg = "비겼습니다."; break;
-		case  1: msg = "졌습니다." ; break;
-		case  2: msg = "이겼습니다."; break;
+		case  1: msg = "이겼습니다." ; break;
+		case  2: msg = "졌습니다."; break;
 		}
 		return msg;
 	}
